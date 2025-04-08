@@ -73,7 +73,7 @@ while (opt > 0 ) {
             let buscar = prompt("Juego a buscar: ")
             let srchResult = search(buscar)
             if(srchResult){
-                console.log(srchResult)
+                alert(srchResult)
             }
             else{
                 alert("no se encontro el juego "+buscar)
@@ -86,7 +86,7 @@ while (opt > 0 ) {
             break;
         //Lista de juego
         case 4:
-            console.log(juegos)
+            console.log(JSON.stringify(juegos,null,2))
             break;
         //editar juego de la lista
         case 5:
