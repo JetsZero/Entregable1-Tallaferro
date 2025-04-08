@@ -133,7 +133,7 @@ while (opt > 0 ) {
         "3) Ordenar juegos por el tipo\n"+
         "4) Ver todos los juegos\n"+
         "5) Editar juego\n"+
-        "6) Eliminar Juego"+
+        "6) Eliminar Juego\n"+
         "0) salir"))
     
 }
