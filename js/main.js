@@ -58,7 +58,8 @@ let opt = parseInt(prompt("Bienvenido, por favor ingrese a una de las opciones p
     "3) Ordenar juegos por el tipo\n"+
     "4) Ver todos los juegos\n"+
     "5) Editar juego\n"+
-    "6) Eliminar Juego"))
+    "6) Eliminar Juego"+
+    "0) salir"))
 //ciclo menu y operadores simulador
 while (opt > 0 ) {
     switch (opt) {
@@ -82,7 +83,7 @@ while (opt > 0 ) {
         //buscar juegos por tipo
         case 3:
             let genero = prompt("Ingrese el genero a buscar: ")
-            console.log(JSON.stringify(searchType(genero),null,2))
+            alert(JSON.stringify(searchType(genero),null,2))
             break;
         //Lista de juego
         case 4:
